@@ -1,0 +1,41 @@
+{
+  "expo": {
+    "name": "Gossip",
+    "slug": "gossip",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./img/applogo.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./img/whisper.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff",
+      "width": "290",
+      "height": "290"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": false
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./img/applogo.png",
+        "backgroundColor": "#ffffff"
+      },
+      "package": "ggoossiipp.world"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "d76e6852-b0d8-439c-a1ea-75d181f2534a"
+      }
+    },
+    "plugins": [
+      "expo-font"
+    ]
+  }
+}
